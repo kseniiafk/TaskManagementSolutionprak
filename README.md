@@ -53,23 +53,6 @@ TasksService
 Удаление задачи
 Связывание задачи с проектом
 
-Инструкция по запуску
-Склонировать репозиторий:
-
-git clone https://github.com/PAUKUSS/TaskManagement.git
-cd TaskManagement
-Открыть файл TaskManagementSolution.sln в Visual Studio.
-Проверить конфигурацию каждого сервиса:
-файл appsettings.json
-параметры подключения к базе данных
-назначенные порты
-Запустить все сервисы:
-UsersService
-ProjectsService
-TasksService
-ApiGateway
-Можно настроить запуск нескольких проектов одновременно через Multiple Startup Projects.
-
 Примеры маршрутов (через API Gateway)
 
 GET    /api/users
